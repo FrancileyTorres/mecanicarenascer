@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+html{
+    scroll-behavior:smooth;
+    
+}
+
+* {   
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    
+     
+}
+
+body{
+    
+   
+    font-size: 100%;  
+   
+    background-color: rgb(18, 28, 31);  
+}
+
+::-webkit-scrollbar {
+    width:5px;
+    height: 10px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:rgb(8,28,31);
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: rgb(212, 159, 23);
+    }
+
+.logo{
+
+    
+    padding-left: 60px;
+    font-size: 22px;
+    font-family:sans-serif;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+}
+
+.logo a img{
+    width: 20px; ;
+}
+
+.logo a {
+    color: inherit; /* ou a cor desejada */
+    text-decoration: none; 
+
+}
+   
+.logo a:hover{
+    color: rgb(212, 159, 23);
+    font-size: 22px;
+    
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:0.1px;
+    background-color: rgb(18, 28, 31);
+    position: fixed;
+    height:60px ;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.5px solid rgba(252, 232, 152, 0.559);
+    
+}
+
+.cabecalho img{
+    width: 45px;   
+    
+}
+
+.cabecalho_menu{
+    display: flex;
+    margin-right: 150px;
+    width: 500px;
+   
+}
+     
+.cabecalho_menu_item{
+    font-family: 'Righteous', cursive;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    font-size:23px;
+    padding-right: 50px;
+    
+    
+}
+
+.cabecalho_menu_item:hover{
+    color: rgb(212, 159, 23);
+    font-size: 23px;
+    
+}
+
+.banner{
+    background-image: url("banner.png");
+    height: 250px;
+   
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+
+}
+
+
+
+    
+
+
+
+.conteudo_principal_Conhecimentos_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(212, 159, 23);
+    padding-top: 20px;
+    padding-left: 70px;
+
+}
+
+
+.conteudo_principal_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 197);
+    font-weight: 1.9;
+    padding-inline: 15px;
+    padding: 40px;
+    line-height: 2; /*espaçamento entre altura da linha*/
+    
+    width: 650px;
+    height: 450px;
+    
+}
+
+.conteudo_principal_Conhecimentos_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-left: 85px;
+    line-height: 1.5;
+    
+    height: 150px;
+   
+    padding-top: 20px;
+    
+    
+}
+
+.conteudo_principal_Conhecimentos_escrito_subtitulo img{
+
+    width: 30px;
+}
+
+
+
+.conteudo_principal_Conhecimentos{
+
+background-color:rgb(26,41 ,46);
+    height: 330px ;
+}
+
+
+
+
+    
+
+
+.conteudo_principal_contato_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(212, 159, 23);
+    
+    padding-left: 70px;
+    margin-top: 30px;
+    
+}
+
+
+
+.conteudo_principal_contato_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 197);
+    font-weight: 2;
+    padding-left: 40px;
+    padding-top: 280px;
+    line-height: 1.5;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+   
+  
+    
+    
+}
+
+
+
+.conteudo_home_esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  70px;
+    padding-top: 15px; 
+    
+    
+}
+
+
+    
+
+
+.conteudo_home_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(241, 207, 51);
+   
+    
+}
+
+
+
+.conteudo_home_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 197);
+    font-weight: 500;
+    padding: 15px;
+    line-height: 1.5;
+    max-width: 600px;
+    height: 300px;
+   
+    padding-top: 10px;
+    
+
+   
+    
+}
+
+.conteudo_home_escrito_subtitulo img{
+
+    width: 30px;
+}
+
+.conteudo_home_imagem_direita{
+  
+    height: 320px;
+    width: 600px;
+
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    
+   
+   
+}
+
+
+
+.zap{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+
+
+.gmail{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+
+.icone{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    width: 330px;
+    justify-content: center;
+    margin-top: 40px;
+  
+
+}
+
+.rodape{
+   
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(199, 199, 197);
+    font-family: 'Sarala', sans-serif;
+    
+    
+   
+    
+}
+
+.linha{
+    margin-top: 20px;
+    border-top: 1px solid rgba(239, 206, 72, 0.47);
+ 
+    width: 700px;
+   font-size: 16px;
+   
+    
+   
+}
+
+
+.imagem_home{
+
+    background-color: brown;
+}
+
+
+/* daqui pra baixo chat gpt*/
+
+
+.imagem.home {
+    position: relative;
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease; /* Adicionado para suavizar a transição entre slides */
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #dadd08;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+
+/*botoes*/
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center; /* Para centralizar horizontalmente os botões */
+}
+
+.prev-btn,
+.next-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px; /* Adicionando um espaço entre os botões */
+}
